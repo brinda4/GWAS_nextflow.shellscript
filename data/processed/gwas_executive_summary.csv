@@ -1,0 +1,16 @@
+Metric,Value,Category
+Total Catalog Association Records,1192032,Overview
+Total Studies Mapped,229942,Overview
+Total Unique Diseases/Traits,38572,Overview
+Total Disease-Associated Genes,30054,Overview
+Numeric RAF Records,575750,Data Quality
+Unreported RAF (NR),616154,Data Quality
+European-Associated Records,1048992,Ancestry
+South Asian-Associated Records,171231,Ancestry
+Shared EUR & SAS Records,151922,Ancestry
+Low-Freq Filtered Records (0.5%-2.0% RAF),27872,Analysis 1
+Low-Freq Unique Variants (rsIDs),19808,Analysis 1
+Low-Freq Unique Genes,11730,Analysis 1
+European-Only Genes,10637,Analysis 2
+South Asian-Only Genes,124,Analysis 2
+Shared Genes (Both Populations),19293,Analysis 2

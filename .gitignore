@@ -1,0 +1,35 @@
+# Raw large datasets (downloaded automatically by pipeline)
+data/raw/*.zip
+data/raw/*.tsv
+data/raw/*.txt
+data/raw/*.gz
+!data/raw/README.md
+
+# Nextflow runtime & work directories
+.nextflow/
+.nextflow.log*
+work/
+results/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Standalone downloaded binaries
+nextflow
