@@ -8,7 +8,7 @@ A complete, production-grade, reproducible bioinformatics pipeline in Python for
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 1. **Complete Data Ingestion & Profiling**: Stream and audit the full NHGRI-EBI GWAS Catalog v1.0.2 release (`1,192,032` records, 38 columns) and ancestry metadata (`229,942` studies).
 2. **Analysis 1 (Low-Frequency Allele Filtering)**: Isolate variants and genes with Risk Allele Frequency (RAF) between **0.5% and 2.0% inclusive** for **European (EUR)** and **South Asian (SAS)** cohorts.
@@ -18,7 +18,7 @@ A complete, production-grade, reproducible bioinformatics pipeline in Python for
 
 ---
 
-## 🔬 Key Empirical Results
+## Key Empirical Results
 
 | Analysis Stage | Dimension | Exact Result |
 | :--- | :--- | :---: |
@@ -40,7 +40,7 @@ A complete, production-grade, reproducible bioinformatics pipeline in Python for
 
 ---
 
-## 📊 Publication Figures
+## Publication Figures
 
 ### Figure 1: Allele Frequency Distribution & Cohort Comparison
 `figures/fig1_allele_frequency_distribution.png`  
@@ -56,7 +56,7 @@ Proportional breakdown of the 30,054 disease-linked genes across European, South
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 gwas-analysis-pipeline/
@@ -95,7 +95,7 @@ gwas-analysis-pipeline/
 
 ---
 
-## ⚡ Nextflow Workflow & Shell Script Runner
+## Nextflow Workflow & Shell Script Runner
 
 The entire analysis pipeline has been implemented as a production **Nextflow DSL2** pipeline (`main.nf`), orchestrated via `nextflow.config`, with support for local, Conda, Docker, and HPC/SLURM cluster profiles.
 
@@ -143,7 +143,7 @@ nextflow run main.nf -profile slurm --outdir results
 - **`GENERATE_VISUALIZATIONS`**: Produces 300 DPI publication plots (PNG and PDF) for allele frequency distributions and trait landscapes.
 - **`GENERATE_REPORT`**: Synthesizes the executive CSV and workflow completion summaries.
 
-## 🚀 Quickstart & Reproduction
+## Quickstart & Reproduction
 
 ### Prerequisites
 - Python 3.10+
@@ -178,6 +178,6 @@ pytest tests/test_pipeline.py -v
 
 ---
 
-## 📜 Citation & Attribution
+## Citation & Attribution
 Data sourced from the **NHGRI-EBI GWAS Catalog**:  
 Sollis E, et al. *The NHGRI-EBI GWAS Catalog: knowledgebase and summary statistics.* Nucleic Acids Res. 2023 Jan 6;51(D1):D977-D985.
