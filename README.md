@@ -1,10 +1,8 @@
 # GWAS Analysis Pipeline: NHGRI-EBI Population & Gene-Disease Architecture
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+This project implements a bioinformatics pipeline to analyze genetic association data from the GWAS Catalog, focusing on European and South Asian populations. The pipeline was developed using Nextflow DSL2, Bash, and Python to process association records, filter low-frequency risk alleles, and examine gene–disease association patterns across the two population groups.
 
-A complete, production-grade, reproducible bioinformatics pipeline in Python for auditing, filtering, analyzing, and visualizing human genome-wide association study (GWAS) data from the **NHGRI-EBI GWAS Catalog**.
+The analysis focused on variants with a reported allele frequency between 0.5% and 2%, with the aim of exploring low-frequency genetic associations and comparing reported gene–disease patterns between European and South Asian populations.
 
 ---
 
